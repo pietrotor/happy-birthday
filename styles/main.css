@@ -25,7 +25,7 @@ body {
   left: 0;
   position: absolute;
   right: 0;
-  top: 30vh;
+  top: 15vh;
 }
 
 .one {
@@ -97,22 +97,23 @@ body {
 
 .six {
   position: relative;
-  top: 10vh;
+  margin: 0 auto;
+  max-width: 300px;
+  top: 0vh;
   z-index: 1;
 }
 
 .six img {
   display: inline-block;
-  height: 350px;
-  max-width: 100%;
-  /* height: auto; */
+  width: 100%;
+  height: auto;
 }
 
 .six .hat {
   left: 41.5%;
   position: absolute;
   /* transform: scale(0.1); */
-  top: -9%;
+  top: 15%;
   transform: rotate(25deg) !important;
   width: 65px;
 }
@@ -241,13 +242,13 @@ body {
 
 @media screen and (max-height: 700px) {
   .six .hat {
-    left: 32%;
+    left: 62%;
   }
 }
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
-    left: 32%;
+    left: 90%;
   }
 }
 
